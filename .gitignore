@@ -1,0 +1,6 @@
+css/*.css
+css/out/
+js/out/
+node_modules/
+.idea/
+.project

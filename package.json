@@ -1,0 +1,26 @@
+{
+  "name": "151029",
+  "version": "1.0.0",
+  "description": "no",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.oschina.net/lgh06/"
+  },
+  "author": "lgh",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^6.0.3",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-postcss": "^6.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.2",
+    "path": "^0.12.7"
+  }
+}
