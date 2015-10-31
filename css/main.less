@@ -3,7 +3,7 @@
 @bgcolor:#0d212a;
 
 
-html,body{
+html,body,.container{
     width: 100%;
     height: 100%;
 }
@@ -15,10 +15,6 @@ body{
     font-family: @font;
     color:white;
 }
-.container{
-    min-height: 100%;
-    width: 100%;
-}
 *{
     margin: 0;
     padding: 0;
@@ -26,16 +22,28 @@ body{
 }
 .index{ //首次进入
     .above{
+        height: 50%;
         .tip{
-
+            
+            width: 3rem;
+            margin: 0 auto;
         }
         .btn{
+            height: 4rem;
+            text-align: center;
             a{
-
+                height: 4rem;
+                width: 80%;
+                margin: 0 auto;
+                display: inline-block;
+                background-color: red;
+                box-sizing: border-box;
             }
         }
+
     }
     .footer{
+        height: 50%;
         .tab{
             .tab1{
 
