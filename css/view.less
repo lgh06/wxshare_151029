@@ -1,0 +1,175 @@
+.view{ //分享浏览
+    .up{
+        width: 90%;
+        @media all and (max-width:320px){
+            width: 100%;
+        }
+        margin: 1em auto 0 auto;
+        .self{
+            width: 75%;
+            float: left;
+            .icon{
+                width: 20%;
+                float: left;
+                img{
+                    width: 100%;
+                    display: block;
+                    border-radius: 100%;
+                }
+            }
+            .detail{
+                width: 75%;
+                height: 100%;
+                float: right;
+                .nick{
+                    
+                }
+                .voice{
+                    position: relative;
+                    width: 100%;
+                    img{
+                        position: absolute;
+                        display: block;
+                        width: 80%;
+                        left: 0;
+                        top: 0;
+                    }
+                    img:first-child{
+                        position: static;
+                    }
+                    audio{
+                        display: none;
+                        visibility: hidden;
+                    }
+                    
+                }
+            }
+        }
+        .intro{
+            width: 25%;
+            float: right;
+        }
+    }
+    
+    .clear{
+        width: 100%;
+        height: 0;
+        clear: both;
+    }
+    
+    .mid{
+        width: 80%;
+        margin: 1em auto 0 auto;
+        .tip{
+            width: 100%;
+            text-align: center;
+            line-height: 1em;
+            font-size: 1em;
+            img{
+                height: 2em;
+                position: relative;
+                top:0.5em;
+            }
+        }
+        .cat{
+            width: 100%;
+            margin-top: 2em;
+            .count{
+                text-align: center;
+                font-size: 3em;
+                color: red;
+            }
+            
+            .tap{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            
+        }   
+    }
+    
+    .btm{
+        width: 92%;
+        margin: 0 auto;
+        .rankup{
+            text-align: center;
+            position: relative;
+            .frdcount{
+                display: inline-block;
+                padding: 0.3em 0.5em;
+                border-radius: 0.5em;
+                background-color: #071D32;
+            }
+            .rank{
+                float: right;
+                position: absolute;
+                display: inline-block;
+                right: 0;
+                top: 0;
+                padding: 0.3em 0.5em;
+                border-radius: 0.5em;
+                color: @btncolor;
+                background-color: #071D32;
+            }
+        }
+    }
+    
+    .fix{
+        position: fixed;
+        bottom: 0;
+        height: 4rem;
+        width: 100%;
+        background-color: #4C4C4C;
+        .left{
+            float: left;
+            background-color: #333333;
+            .iconwrap{
+                width: 4rem;
+                height: 4rem;
+                overflow: hidden;
+                float: left;
+                position: relative;
+                top: -1rem;
+                border-radius: 4rem;
+                background-color: white;
+                .icon{
+                    overflow: hidden;
+                    border-radius: 100%;
+                    width: 86%;
+                    height: 86%;
+                    position: absolute;
+                    left: 7%;
+                    top:7%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .txt{
+                float: right;
+                padding: 0.5rem 0.8rem;
+                color: black;
+                background-color: @btncolor;
+                border-radius: 0.4rem;
+                position: relative;
+                top:1rem;
+                right: 0.5rem;
+            }
+        }
+        .right{
+            float: right;
+            img{
+                float: right;
+                width: 100%;
+                max-width: 12rem;
+            }
+        }
+        .left,.right{
+            width: 50%;
+            height: 100%;
+        }
+    }
+}
