@@ -24,27 +24,59 @@
         .tip2{
         	width: 100%;
         	img{
+        		display: block;
         		width: 100%;
         	}
         }
 
     }
     .footer{
-        height: 50%;
+    	margin-top: 1em;
         .tab{
-            .tab1{
-
+        	width: 60%;
+        	min-width: 220px;
+        	margin: 0 auto;
+        	border-radius: 0.5rem;
+        	border: 1px solid @btncolor;
+        	overflow: hidden;
+        	box-sizing: border-box;
+            .tab1,.tab2{
+            	float: left;
+            	box-sizing: border-box;
+				display: inline-block;
+				width: 50%;
+				height: 3em;
+				text-align: center;
+				span{
+					font-size: 1.2em;
+					line-height: 1.2em;
+					position: relative;
+					top:0.6em;
+				}
+							
+				
             }
-            .tab2{
-
+            .active{
+            	background-color: @btncolor;
+            	color: @bgcolor;
             }
+            
         }
         .content{
-            .content1{
-
+        	width: 90%;
+        	margin: 0 auto;
+        	margin-top: 2em;
+            .content1,.content2{
+				width: 100%;
+				img{
+					width: 100%;
+				}
             }
-            .content2{
-
+            .show{
+            	display: block;
+            }
+            .hide{
+            	display: none;
             }
         }
 
